@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="DhammaUploader — a free personal tool that uploads its owner's own dhamma videos from Google Drive to the owner's own YouTube channel. Homepage and Privacy Policy." />
+    <link rel="icon" href="data:," />
+    <title>DhammaUploader — Homepage &amp; Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #faf7f1;
+        --surface: #ffffff;
+        --ink: #2b2118;
+        --ink-soft: #5c4f42;
+        --line: #e3d9c8;
+        --accent: #8a5a1e;
+        --accent-soft: #f3e9d7;
+        --code-bg: #f1eadd;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #171310;
+          --surface: #211b16;
+          --ink: #ece3d4;
+          --ink-soft: #b3a48f;
+          --line: #3a3128;
+          --accent: #d9a45b;
+          --accent-soft: #2e2517;
+          --code-bg: #2a231b;
+        }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 17px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 20px 64px;
+      }
+      header {
+        padding: 56px 0 8px;
+        text-align: left;
+      }
+      .mark {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: var(--accent-soft);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 6px 14px;
+        margin-bottom: 20px;
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 40px;
+        line-height: 1.15;
+        font-weight: 700;
+        margin: 0 0 14px;
+        letter-spacing: -0.01em;
+      }
+      .lede {
+        font-size: 19px;
+        color: var(--ink-soft);
+        margin: 0 0 8px;
+        max-width: 34em;
+      }
+      nav.toc {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 26px 0 8px;
+      }
+      nav.toc a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 8px 16px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--ink);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      nav.toc a:hover { border-color: var(--accent); color: var(--accent); }
+      section {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 30px 28px;
+        margin-top: 28px;
+      }
+      h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 26px;
+        line-height: 1.25;
+        margin: 0 0 6px;
+      }
+      h3 {
+        font-size: 17px;
+        margin: 26px 0 6px;
+      }
+      h3:first-of-type { margin-top: 18px; }
+      p { margin: 10px 0; }
+      ul, ol { margin: 10px 0; padding-left: 24px; }
+      li { margin: 6px 0; }
+      .meta {
+        color: var(--ink-soft);
+        font-size: 15px;
+        margin: 0 0 4px;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.88em;
+        background: var(--code-bg);
+        border-radius: 5px;
+        padding: 1px 6px;
+        white-space: nowrap;
+      }
+      .scope {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 16px 18px;
+        margin: 14px 0;
+      }
+      .scope h4 {
+        margin: 0 0 4px;
+        font-size: 16px;
+      }
+      .scope p { margin: 6px 0; }
+      .plain-list { list-style: none; padding-left: 0; }
+      .plain-list li {
+        padding-left: 26px;
+        position: relative;
+      }
+      .plain-list li::before {
+        content: "—";
+        position: absolute;
+        left: 2px;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      a { color: var(--accent); }
+      a.mail {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 6px 4px;
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 36px;
+        color: var(--ink-soft);
+        font-size: 14px;
+        text-align: center;
+      }
+      @media (max-width: 520px) {
+        h1 { font-size: 32px; }
+        .lede { font-size: 17px; }
+        section { padding: 24px 20px; }
+        header { padding-top: 40px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <span class="mark">Personal tool · Free</span>
+        <h1>DhammaUploader</h1>
+        <p class="lede">A small personal tool that uploads its owner's own dhamma videos from Google Drive to the owner's own YouTube channel — nothing more.</p>
+        <nav class="toc" aria-label="Page sections">
+          <a href="#about">About the tool</a>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>About DhammaUploader</h2>
+          <p>DhammaUploader is a free personal tool, run by its owner only. It is not a public service, not a business, and it has no other users.</p>
+          <p>Its single job is to move the owner's own dhamma (Buddhist teaching) videos from the owner's Google Drive to the owner's own YouTube channel, so the talks can be shared as dhamma dana (a free gift of teaching).</p>
+          <h3>How it works</h3>
+          <ol>
+            <li>The owner places finished videos in a Google Drive folder named <strong>ပြီးစီး</strong> (“finished”).</li>
+            <li>The tool runs in Google Colab, in the owner's own account, only when the owner starts it.</li>
+            <li>It downloads a video from that Drive folder and uploads it to the owner's own YouTube channel.</li>
+            <li>Every upload is set to <strong>Unlisted</strong>. The owner reviews each video and decides himself whether to make it public.</li>
+          </ol>
+          <p>There is no background service: when the owner is not running it, DhammaUploader does nothing at all.</p>
+        </section>
+
+        <section id="privacy">
+          <h2>Privacy Policy</h2>
+          <p class="meta">Effective date: 21 November 2026</p>
+          <p class="meta">Owner: Tun Tun · <a class="mail" href="mailto:tun522526@gmail.com">tun522526@gmail.com</a></p>
+
+          <p>This policy explains exactly what DhammaUploader accesses, what it does with that access, and what it never does. Because the tool is used by its owner alone, on the owner's own accounts and files, it handles no one else's data.</p>
+
+          <h3>1. What the tool accesses</h3>
+          <p>DhammaUploader uses two Google APIs, each with the narrowest permission it needs:</p>
+
+          <div class="scope">
+            <h4>YouTube — YouTube Data API v3</h4>
+            <p>Scope: <code>youtube.upload</code></p>
+            <p>Used only to upload videos to the owner's own YouTube channel, with each video set to Unlisted. The tool does not read, change, or delete anything else on YouTube — no other channels, no comments, no playlists, no account settings.</p>
+          </div>
+
+          <div class="scope">
+            <h4>Google Drive — Drive API</h4>
+            <p>Scope: <code>drive.readonly</code> (read-only)</p>
+            <p>Used only to list and download the owner's own video files from the owner's Drive folder named <strong>ပြီးစီး</strong>. The read-only scope means the tool cannot modify, share, move, or delete anything in Drive.</p>
+          </div>
+
+          <h3>2. How video files move</h3>
+          <p>Video files travel along one path only: from the owner's Google Drive, through Google Colab (running in the owner's account), to the owner's YouTube channel. Files are never sent to any other service, server, or person.</p>
+
+          <h3>3. The authorization token</h3>
+          <p>The Google authorization token the tool uses is stored only in a private folder inside the owner's own Google Drive. It is not shared with anyone and is never sent anywhere else.</p>
+
+          <h3>4. What the tool does not do</h3>
+          <ul class="plain-list">
+            <li>It collects no personal data.</li>
+            <li>It stores no personal data, beyond the owner's own token described above.</li>
+            <li>It sells no data, and shares no data with anyone.</li>
+            <li>It has no other users, and tracks no users.</li>
+            <li>It runs no background service — it works only while the owner runs it in Colab.</li>
+            <li>It shows no ads.</li>
+          </ul>
+
+          <h3>5. Revoking access</h3>
+          <p>The owner can revoke DhammaUploader's access at any time from the security settings of his Google account (Google Account → Security → Third-party access), and can delete the stored token file from his Drive. Once revoked or deleted, the tool can no longer access YouTube or Drive until the owner authorizes it again.</p>
+
+          <h3>6. Changes to this policy</h3>
+          <p>If the tool's access or behaviour ever changes, this page will be updated and the effective date above will change with it.</p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>Questions about DhammaUploader or this policy:</p>
+          <p><strong>Tun Tun</strong><br />
+          <a class="mail" href="mailto:tun522526@gmail.com">tun522526@gmail.com</a></p>
+        </section>
+      </main>
+
+      <footer>
+        <p>DhammaUploader · A free personal tool by Tun Tun · Privacy Policy effective 21 November 2026</p>
+      </footer>
+    </div>
+  </body>
+</html>
